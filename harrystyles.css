@@ -30,6 +30,8 @@ p {
 
   img {
 	  align= left; 
+	  width=280;
+          overflow: visible;
   }
   
   
