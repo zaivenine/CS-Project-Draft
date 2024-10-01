@@ -1,0 +1,48 @@
+     body {
+         background-color:#606C38;
+	 }
+	 
+	 h1 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #283618;
+}
+
+a {
+
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #a3b18a;
+}
+
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+  img {
+	  align= left; 
+  }
+  
+  
+  div > p {
+	  float:right; 
+	  width: 800px;
+	  padding: 20px;
+	  border: double #a3b18a;
+	  margin: 20px 25px 10px 15px;
+  }
+  
+  
+  footer > p {
+	  float: bottom;
+	  text-align: center
+	  {
