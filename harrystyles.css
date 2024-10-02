@@ -20,6 +20,11 @@ a {
 }
 
 
+div {
+width: 1000;
+height: 480;
+}
+
 p {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
