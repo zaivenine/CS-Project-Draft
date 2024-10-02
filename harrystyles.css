@@ -41,7 +41,7 @@ p {
   
   
   div > p {
-	  float: center; 
+	  float: right; 
 	  overflow: auto;
 	  border: double #a3b18a;
 	  margin: 20px 25px 10px 15px;
