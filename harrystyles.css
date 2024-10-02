@@ -34,7 +34,8 @@ p {
 
 
   img {
-	  align: left; 
+	  float: left; 
+	  margin: 1px 1px 1px 1px;
   }
   
   
@@ -42,7 +43,7 @@ p {
 	  float: right; 
 	  overflow: auto;
 	  border: double #a3b18a;
-	  margin: 20px 25px 10px 15px;
+	  margin: 1px 1px 1px 1px;
   }
   
   
