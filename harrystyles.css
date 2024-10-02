@@ -29,8 +29,9 @@ p {
 
 
   img {
-	  align= left; 
-	  width=280;
+	  align: left; 
+	  width: 280;
+	  height: 200;
           overflow: visible;
   }
   
