@@ -21,7 +21,7 @@ a {
 
 
 div {
-width: 1000;
+width: 900;
 height: 400;
 }
 
@@ -41,9 +41,10 @@ p {
   
   div > p {
 	  float: right; 
-	  overflow: auto;
+	  width: 500
+	  height: 200;
 	  border: double #a3b18a;
-	  margin: 1px 1px 1px 1px;
+	  margin: 10px 50px 10px 10px;
   }
   
   
