@@ -5,7 +5,7 @@ body {
 h1 {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>; /* replace <weight> with an actual value */
+  font-weight: 400; /* Updated from <weight> */
   font-style: normal;
   color: #283618;
 }
@@ -13,21 +13,20 @@ h1 {
 a {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>; /* replace <weight> with an actual value */
+  font-weight: 400; /* Updated from <weight> */
   font-style: normal;
   color: #a3b18a;
 }
 
 div {
-  width: 1000px; /* added px for units */
-  height: 200px; /* added px for units */
-  position: relative;
+  width: 1000px; /* Added px for valid width */
+  height: 200px; /* Added px for valid height */
 }
 
 p {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>; /* replace <weight> with an actual value */
+  font-weight: 400; /* Updated from <weight> */
   font-style: normal;
 }
 
@@ -36,15 +35,14 @@ img {
 }
 
 div > p {
-  float: right; 
-  width: 45%; /* you can adjust the width as needed */
+  float: right;
+  width: 50%; /* Added width to ensure it fits within the container */
   border: double #a3b18a;
-  padding: 10px;
-  box-sizing: border-box;
+  padding: 10px; /* Added padding for better appearance */
 }
 
 footer > p {
-  clear: both;
+  float: bottom;
   text-align: center;
 }
 
