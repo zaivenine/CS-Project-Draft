@@ -1,50 +1,50 @@
-     body {
-         background-color:#606C38;
-	 }
-	 
-	 h1 {
+body { 
+  background-color: #606C38;
+}
+
+h1 {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <weight>; /* replace <weight> with an actual value */
   font-style: normal;
   color: #283618;
 }
 
 a {
-
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <weight>; /* replace <weight> with an actual value */
   font-style: normal;
   color: #a3b18a;
 }
 
-
 div {
-width: 1000;
-height: 200;
+  width: 1000px; /* added px for units */
+  height: 200px; /* added px for units */
+  position: relative;
 }
 
 p {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <weight>; /* replace <weight> with an actual value */
   font-style: normal;
 }
 
+img {
+  float: left; 
+}
 
-  img {
-	  float: left; 
-  }
-  
-  
-  div > p {
-	  float: right; 
-	  border: double #a3b18a;
-  }
-  
-  
-  footer > p {
-	  float: bottom;
-	  text-align: center
-  }
+div > p {
+  float: right; 
+  width: 45%; /* you can adjust the width as needed */
+  border: double #a3b18a;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+footer > p {
+  clear: both;
+  text-align: center;
+}
+
